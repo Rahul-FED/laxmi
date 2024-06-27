@@ -1,0 +1,43 @@
+.chargecard{
+    border: 1px solid #AD721F;
+    border-radius: 7px;
+}
+.makebg{
+    background-color:#AD721F ;
+    width: 76px;
+    height: 76px;
+    border-radius: 100px;
+    margin-left: 40px;
+}
+.making1{
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    line-height: 30px;
+    margin-top: 20px;
+    height: 30px;
+    width: 30px;
+    object-fit: contain;
+   
+}
+.maketxt{
+    color:#AD721F;
+    font-size: 18px;
+    margin: 0px;
+}
+.makinghead{
+    font-size: 40px;
+    font-weight: 600;
+    color:  #666666;
+}
+
+.makingpara{
+    color: #666666;
+    font-size: 18px;
+}
+
+@media (max-width: 800px) {
+    .makinghead{
+        font-size: 20px;
+    }
+  }

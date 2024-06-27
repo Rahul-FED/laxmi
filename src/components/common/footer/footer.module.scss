@@ -1,0 +1,47 @@
+.bottomicon{
+    width: 200px;
+}
+.footercover{
+    border-radius:58px 58px 0px 0px ;
+    background-color: #F0F0F0;
+    padding: 70px;
+    margin-top: 40px;
+}
+.footerheading{
+    font-weight: 600;
+    font-size: 18px;
+    padding-bottom: 10px;
+    padding-top: 20px;
+    
+}
+.links {
+    text-decoration: none;
+    color: black !important;
+    font-size: 14px;
+    transition: color 0.3s ease-in-out, font-size 0.3s ease-in-out; /* Add transition for color and font-size */
+}
+
+.links:hover {
+    text-decoration: none;
+    color: #AD721F !important; /* Change to desired hover color */
+    font-size: 16px; /* Change to desired hover font-size */
+    transition-delay: 0.5s; /* Delay before the transition starts */
+}
+
+// d-flex align-items-center flex-wrap
+.wrappergoogle{
+    display: flex;
+    align-items: center;
+
+}
+@media (max-width: 800px) {
+    .footercover{
+        border-radius:58px 58px 0px 0px ;
+        background-color: #F0F0F0;
+        padding: 30px;
+        margin-top: 40px;
+    }.wrappergoogle{
+    flex-wrap: wrap;
+    
+}
+  }

@@ -1,0 +1,35 @@
+.haricard{
+    padding: 20px;
+}
+.slick-arrow slick-prev{
+    background-color: red;
+}
+.left{
+position: absolute;
+right: 50px;
+top: 0;
+z-index: 1;
+top: -60px;
+}
+.right{
+position: absolute;
+z-index: 1;
+right: 10px;
+top: -60px;
+}
+.leftimg {
+    width: 32px;
+height: 40px;
+}
+.rightimg {
+    width: 32px;
+height: 40px;
+}
+.popualarhead{
+    color: #AD721F;
+    font-size: 40px;
+}
+.popularpara{
+    color: #666666;
+    font-size: 18px;
+}

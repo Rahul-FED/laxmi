@@ -1,0 +1,20 @@
+// $primary: linear-gradient(to right, #ff8a00, #e52e71);
+$primary: #AD721F !important;
+$primary-dark: #1e3887;
+$secondary: #666666;
+$light: #f5f4ff;
+
+@mixin primary-gradient {
+  background: $primary;
+  background: linear-gradient(to right, $primary 0%, $primary-dark 100%);
+}
+@mixin primary-gradient-hover {
+  background: $primary;
+  background: linear-gradient(to right, $primary-dark 0%, $primary 100%);
+}
+
+@mixin text-primary-gradient {
+  @include primary-gradient;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

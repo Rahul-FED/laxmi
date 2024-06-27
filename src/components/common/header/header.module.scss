@@ -1,0 +1,157 @@
+.sectionwrapper{
+ background: url("/images/banner.png");
+ object-fit: cover;
+ background-position: center;
+ object-position: center;
+ background-repeat: no-repeat;
+//  padding: 50px 20px 20px 50px;
+ height: 900px;
+//  margin-top: -10px;
+padding: 70px;
+
+}
+.inputwrap{
+    background-color: white;
+    border-radius: 40px;
+    border: 2px solid rgba(128, 128, 128, 0.527);
+    // padding: 15px 45px 15px 45px;
+    padding: 13px;
+    display: inline-block;
+    // width: 229px;
+   
+}
+.inputbox{
+    background: transparent;
+    border: none;
+    // width: 140px;
+
+
+}
+.locationimg{
+    width: 14px;
+    height: 17px;
+}
+.imgwrap{
+    padding-left: 15px;
+    margin-right: 15px;
+}
+.calendar{
+    background-color: #AD721F;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    font-size: 6px;
+    margin: 0px;
+}
+.calwrap{
+    background-color: white;
+    border-radius: 40px;
+    border: 2px solid rgba(128, 128, 128, 0.527);
+    // padding: 15px 45px 15px 45px;
+    padding: 13px;
+    display: flex;
+    gap: 10px;
+}
+.calendarimg{
+    width: 48px;
+    height: 10px;
+}
+.search{
+    border-radius: 40px;
+    // padding: 15px 45px 15px 45px;
+    padding: 13px;
+    display: flex;
+    gap: 10px;
+    background-color: #AD721F;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
+
+.sectionwrapper{
+border-radius: 20px;
+background-color: #FFFFFF;
+position: relative;
+height: 600px;
+
+}
+.bannerbus{
+    position: absolute;
+    right: 0;
+}
+.innersection{
+    margin-top: 90px;
+    box-shadow: -2px 1px 10.9px -3px #0000001F;
+    background-color: #ffffff9e;
+    border-radius: 13px;
+padding: 40px;
+}
+.rahul{
+    padding-left: 20px;
+
+}
+.buttonsearch{
+    background: transparent;
+    border: none;
+    color: white;
+    font-size: 14px;
+  
+
+}
+.optional{
+    color :grey;
+    font-size: 11px;
+    margin: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+.seater{
+    background-color: #D9D9D9;
+    border: 1px solid #666666;
+    border-radius: 40px;
+    padding: 5px 15px 5px 15px;
+
+}
+.sleeper{
+    background-color: #AD721F;
+    border: none;
+    border-radius: 40px;
+    padding: 5px 15px 5px 15px;
+    color: white;
+
+}
+.inputwrapcover{
+    display: flex;
+    gap: 10px;
+}
+.go{
+    color: #AD721F;
+}
+.h1head{
+    font-size: 24px;
+    padding-bottom: 10px;
+}
+@media (max-width: 800px) {
+    .sectionwrapper{
+        padding: 10px;
+    }
+   .inputwrapcover {
+    flex-wrap: wrap;
+    margin-top: 20px;
+    width: 100%;
+    }.inputwrap{
+        width: 100%;
+        margin-bottom: 10px;
+    }.calwrap{
+        width: 100%;
+        margin-bottom: 10px;
+    }.innersection{
+        margin-top: 0px;
+        padding: 8px;
+    }
+  }

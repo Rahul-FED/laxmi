@@ -1,0 +1,44 @@
+@import "colors";
+
+$spacer: 1.5rem;
+$spacers: (
+  0: 0,
+  1: $spacer * .25,
+  2: $spacer * .5,
+  3: $spacer,
+  4: $spacer * 1.5,
+  5: $spacer * 3,
+);
+
+$h1-font-size: 4rem;
+$h2-font-size: 3.5rem;
+$h3-font-size: 3rem;
+$h4-font-size: 2rem;
+$h5-font-size: 1.25rem;
+$h6-font-size: 1rem;
+$navbar-brand-padding-y: 0;
+$dropdown-dark-bg:  #000;
+$min-contrast-ratio: 3;
+$navbar-toggler-focus-width: 0;
+$navbar-dark-color: #fff;
+$navbar-dark-hover-color: $primary;
+$navbar-dark-active-color: $primary;
+$offcanvas-color: #fff;
+$dropdown-link-hover-color: #fff;
+$dropdown-link-hover-bg: $primary;
+$dropdown-item-padding-x: 20px;
+$dropdown-item-padding-y: 10px;
+
+$form-check-radio-border-radius: 0.25em;
+$form-check-radio-checked-bg-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'><path fill='none' stroke='#fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='3' d='m6 10 3 3 6-6'/></svg>");
+$form-check-input-bg: transparent;
+$enable-negative-margins: true;
+$tooltip-color: #fff;
+$btn-padding-y: 0.438rem;
+$btn-padding-x: 1rem;
+$pagination-focus-box-shadow: none;
+$input-focus-box-shadow: none;
+$form-select-focus-box-shadow: none;
+$btn-close-focus-shadow: none;
+
+@import "bootstrap";
